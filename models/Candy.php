@@ -11,7 +11,7 @@ namespace app\models;
 use Yii;
 use yii\base\Model;
 
-class UpdateForm extends Model
+class Candy extends Model
 {
     public $name;
     public $price;

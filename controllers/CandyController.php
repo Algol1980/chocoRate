@@ -3,7 +3,7 @@
 namespace app\controllers;
 use Yii;
 use yii\web\Controller;
-use app\models\UpdateForm;
+use app\models\Candy;
 
 class CandyController extends Controller{
     public function actionIndex(){
@@ -21,7 +21,7 @@ class CandyController extends Controller{
 
     public function actionUpdate()
     {
-        $model = new UpdateForm();
+        $model = new Candy();
 //        if ($model->load(Yii::$app->request->post())) {
 //            return ;
 //        }
